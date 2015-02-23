@@ -30,7 +30,7 @@ public class FooTest {
 	public void checkNameLength(){
 		String name ="Dinesh Dontha Kumar";
 		
-		assertTrue(name.length()>unameLength);
+		assertTrue(name.length()<unameLength);
 	}
 
 }

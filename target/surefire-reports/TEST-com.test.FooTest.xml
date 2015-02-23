@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.test.FooTest" time="0.003" tests="3" errors="0" skipped="1" failures="1">
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="3" failures="0" name="com.test.FooTest" time="0.039" errors="0" skipped="1">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/home/dinesh/Downloads/JavaDownloads/jdk1.8.0_20/jre/lib/amd64"/>
@@ -20,10 +20,11 @@
     <property name="java.endorsed.dirs" value="/home/dinesh/Downloads/JavaDownloads/jdk1.8.0_20/jre/lib/endorsed"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.io.tmpdir" value="/tmp"/>
-    <property name="line.separator" value="&#10;"/>
+    <property name="line.separator" value="
+"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="os.name" value="Linux"/>
-    <property name="classworlds.conf" value="/home/dinesh/wksp/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf6324842847201097060.tmp"/>
+    <property name="classworlds.conf" value="/home/dinesh/wksp/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf289504112649920775.tmp"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/home/dinesh/Downloads/JavaDownloads/jdk1.8.0_20/jre/lib/amd64/server:/home/dinesh/Downloads/JavaDownloads/jdk1.8.0_20/jre/lib/amd64:/home/dinesh/Downloads/JavaDownloads/jdk1.8.0_20/jre/../lib/amd64:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64/server:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64:/usr/lib/jvm/java-6-openjdk-amd64/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -40,7 +41,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="/home/dinesh/Downloads/JavaDownloads/jdk1.8.0_20/jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B surefire-report:report"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
@@ -59,16 +60,9 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="thisIsIgnored" classname="com.test.FooTest" time="0">
+  <testcase classname="com.test.FooTest" name="thisIsIgnored" time="0">
     <skipped/>
   </testcase>
-  <testcase name="checkNameLength" classname="com.test.FooTest" time="0.003">
-    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
-	at org.junit.Assert.fail(Assert.java:86)
-	at org.junit.Assert.assertTrue(Assert.java:41)
-	at org.junit.Assert.assertTrue(Assert.java:52)
-	at com.test.FooTest.checkNameLength(FooTest.java:33)
-</failure>
-  </testcase>
-  <testcase name="thisAlwaysPasses" classname="com.test.FooTest" time="0"/>
+  <testcase classname="com.test.FooTest" name="checkNameLength" time="0"/>
+  <testcase classname="com.test.FooTest" name="thisAlwaysPasses" time="0"/>
 </testsuite>
