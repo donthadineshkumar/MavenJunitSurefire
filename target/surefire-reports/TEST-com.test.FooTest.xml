@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="3" failures="0" name="com.test.FooTest" time="0.039" errors="0" skipped="1">
+<testsuite tests="3" failures="0" name="com.test.FooTest" time="0.065" errors="0" skipped="1">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/home/dinesh/Downloads/JavaDownloads/jdk1.8.0_20/jre/lib/amd64"/>
@@ -24,7 +24,7 @@
 "/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="os.name" value="Linux"/>
-    <property name="classworlds.conf" value="/home/dinesh/wksp/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf289504112649920775.tmp"/>
+    <property name="classworlds.conf" value="/home/dinesh/wksp/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf1238629230478066152.tmp"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/home/dinesh/Downloads/JavaDownloads/jdk1.8.0_20/jre/lib/amd64/server:/home/dinesh/Downloads/JavaDownloads/jdk1.8.0_20/jre/lib/amd64:/home/dinesh/Downloads/JavaDownloads/jdk1.8.0_20/jre/../lib/amd64:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64/server:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64:/usr/lib/jvm/java-6-openjdk-amd64/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
